@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html#project-description",
+    "href": "index.html#project-description",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Project Description",
+    "text": "Project Description\nThis project is part of the DSA Major capstone which server to simulate a proper job experience. This included things like utilizing SCRUM and AGILE as well as working directly with a client. The goal we were assigned was to sign up for a competition on Kaggle and compete to reach at least the top half of the leaderboard. We ended up competiting on a competition entitled Hedge Fund - Time Series Forecasting which was meant to utilize Time Series Forecasting models and machine learning to predict data on a test set."
+  },
+  {
+    "objectID": "index.html#meet-the-team",
+    "href": "index.html#meet-the-team",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Meet the Team",
+    "text": "Meet the Team\n\nPeter Davis: Project Manager and Data Modeler\nBrandon Faulkenberry: Client Liaison and Data Analyzer\nAustin Pham: Project Documenter and Data Visualizer\nVictor Ojienabor: Project Documenter and Data Modeler\n\n\n\n\n\nPeter Davis\n\n  \n\n\n\n\nBrandon Faulkenberry\n\n  \n\n\n\n\nAustin Pham\n\n  \n\n\n\n\nVictor Ojienabor"
+  },
+  {
+    "objectID": "index.html#client-information",
+    "href": "index.html#client-information",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Client Information",
+    "text": "Client Information\n\nClient Name: Dr. Cengiz Gunay\nIndustry: Professor at GGC\nGoal of the project: Place within top 50% of the leaderboard\n\n\n\nDr. Cengiz Gunay"
+  },
+  {
+    "objectID": "index.html#dataset",
+    "href": "index.html#dataset",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Dataset",
+    "text": "Dataset\n\n\nOur Dataset Summary\n\n\n\n\n\nTime Series Index Summary"
+  },
+  {
+    "objectID": "index.html#data-processing-model",
+    "href": "index.html#data-processing-model",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Data Processing & Model",
+    "text": "Data Processing & Model\nAll of our work is stored within a google colab notebook"
+  },
+  {
+    "objectID": "index.html#solution-examples",
+    "href": "index.html#solution-examples",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Solution Examples",
+    "text": "Solution Examples\n\n\n\n\nLightGBM Model\n\n  \n\nLightGBM:This is an example of the decision tree created by our LightGBM model submission\n\n\n\n\n\nLSTM Model\n\n  \n\nLSTM:This graph shows how the LSTM model predicted values compared to the actual values\n\n\n\n\n\nGRU Model\n\n  \n\nLightGBM:This visualization shows how well the GRU model was able to predict values compared to the actual values"
+  },
+  {
+    "objectID": "index.html#our-placement",
+    "href": "index.html#our-placement",
+    "title": "Team VBAP: A Kaggle Challenge",
+    "section": "Our Placement!",
+    "text": "Our Placement!\n\n\nOur Placement on Kaggle\n\n  \n\nOur placement:We placed 280 out of 983 which is in the top 30%. Well above our goal!"
+  }
+]

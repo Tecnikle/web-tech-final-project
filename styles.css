@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+/* Background and text */
+body {
+  color: #ffffff !important;
+  background-color: #141414 !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*headings color */
+h1,
+h2,
+h3 {
+  color: #2986cc;
+}
+
+.img-card {
+  text-align: center;
+}
+
+/*Title over images*/
+.img-title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #2986cc;
+}
+
+/*Uniform image style within columns*/
+.uniform-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/*Full image options*/
+.full-img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.extra-img {
+  width: 90%;
+  object-fit: contain;
+  height: auto;
+}
+
+/* add hover effect to images */
+.uniform-img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.full-img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.extra-img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+img {
+  transition: transform 0.2s ease;
+}
+
+.standard-img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.standard-img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+/*Handling the Carousel effect*/
+.carousel {
+  position: relative;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.caption {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 28px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.prev {
+  left: -60px;
+}
+
+.next {
+  right: -60px;
+}
+
+.carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/*Code format  Handling*/
+pre.sourceCode,
+div.sourceCode,
+pre {
+  background-color: inherit !important;
+  color: white !important;
+}
+
+pre code {
+  background: transparent !important;
+  color: white !important;
+}
