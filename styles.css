@@ -94,56 +94,60 @@ img {
 
 /*Handling the Carousel effect*/
 .carousel {
-  position: relative;
-  width: 700px;
-  margin: auto;
-  text-align: center;
+    position: relative;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel-slide {
-  display: none;
-}
-
-.carousel-slide.active {
-  display: block;
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .carousel img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: contain;
-  border-radius: 10px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .caption {
-  margin-top: 12px;
-  font-size: 1.1rem;
-  font-weight: bold;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .carousel-btn {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: none;
-  font-size: 28px;
-  padding: 12px 16px;
-  cursor: pointer;
-  border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,.6);
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 2;
 }
 
 .prev {
-  left: -60px;
+    left: 10px;
 }
 
 .next {
-  right: -60px;
+    right: 10px;
 }
 
 .carousel-btn:hover {
-  background: rgba(0, 0, 0, 0.85);
+    background: rgba(0,0,0,.85);
 }
 
 /*Code format  Handling*/

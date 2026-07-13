@@ -1,3 +1,4 @@
+// Quarto Generated Script
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
   const anchorJS = new window.AnchorJS();
@@ -442,32 +443,36 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 //Handles the carousel effect
+const track = document.querySelector(".carousel-track");
 const slides = document.querySelectorAll(".carousel-slide");
+
 const nextBtn = document.querySelector(".next");
 const prevBtn = document.querySelector(".prev");
 
 let currentSlide = 0;
 
-function showSlide(index) {
-  slides.forEach((slide) => slide.classList.remove("active"));
-
-  if (index >= slides.length) {
-    currentSlide = 0;
-  } else if (index < 0) {
-    currentSlide = slides.length - 1;
-  } else {
-    currentSlide = index;
-  }
-
-  slides[currentSlide].classList.add("active");
+function updateCarousel() {
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
 nextBtn.addEventListener("click", () => {
-  showSlide(currentSlide + 1);
+    currentSlide++;
+
+    if (currentSlide >= slides.length) {
+        currentSlide = 0;
+    }
+
+    updateCarousel();
 });
 
 prevBtn.addEventListener("click", () => {
-  showSlide(currentSlide - 1);
+    currentSlide--;
+
+    if (currentSlide < 0) {
+        currentSlide = slides.length - 1;
+    }
+
+    updateCarousel();
 });
 
-showSlide(0);
+updateCarousel();
