@@ -18,6 +18,17 @@ h3 {
   color: #2986cc;
 }
 
+.columns {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  width: 25% !important;
+}
+
 .img-card {
   text-align: center;
 }
