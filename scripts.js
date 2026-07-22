@@ -1,4 +1,4 @@
-// Quarto Generated Script
+// #region Quarto Generated Script
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
   const anchorJS = new window.AnchorJS();
@@ -442,6 +442,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 
+//#endregion Quarto Generated Script
+
 //Handles the carousel effect
 const track = document.querySelector(".carousel-track");
 const slides = document.querySelectorAll(".carousel-slide");
@@ -476,3 +478,9 @@ prevBtn.addEventListener("click", () => {
 });
 
 updateCarousel();
+
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been received.");
+});
